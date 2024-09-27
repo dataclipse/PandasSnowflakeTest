@@ -11,8 +11,8 @@ Done:
 pip install pandas snowflake-connector-python
 ```
 - Python Script to connect to Snowflake and pull data
+- Alter data 
 
 Todo:
-- Alter data 
 - Create new table for altered Data
 - Write altered Data to new table
