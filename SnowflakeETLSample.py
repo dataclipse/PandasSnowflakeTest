@@ -4,7 +4,7 @@ import snowflake.connector
 # Snowflake connection parameters
 SNOWFLAKE_ACCOUNT = 'QPOWBAL-VL87933'
 SNOWFLAKE_USER = 'COVID_DATA_USER'
-SNOWFLAKE_PASSWORD = '*********'
+SNOWFLAKE_PASSWORD = '*********' #removed before pushed to github
 SNOWFLAKE_WAREHOUSE = 'COMPUTE_WH'
 SNOWFLAKE_DATABASE = 'COVID_DATA'
 SNOWFLAKE_SCHEMA = 'COVID_DATA_SCHEMA'
