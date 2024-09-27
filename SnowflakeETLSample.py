@@ -24,7 +24,7 @@ conn = snowflake.connector.connect(
 )
 
 # Query to select all data from a specific table
-query = "SELECT COUNTRY, CASES_NEW, DEATHS_NEW, DATE FROM COVID19_WHO_SITUATION_REPORTS;"  # Limit used for demonstration purposes
+query = "SELECT COUNTRY, CASES_NEW, DEATHS_NEW, DATE FROM COVID19_WHO_SITUATION_REPORTS;" 
 
 # Fetch data from Snowflake into a Pandas DataFrame
 df = panda_data.read_sql(query, conn)
