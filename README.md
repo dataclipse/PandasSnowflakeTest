@@ -16,6 +16,7 @@ pip install pandas snowflake-connector-python
 - Write altered Data to new table
 
 Test Results:
+
 ![TestRun](https://github.com/user-attachments/assets/e54b1974-cbf7-48ad-8ea5-eb31114364b1)
 
 ![SnowflakeResults0](https://github.com/user-attachments/assets/42c2544f-05f9-41ea-a7cc-391398232c58)
